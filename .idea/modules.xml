@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$USER_HOME$/Documents/GitHub/Askii/.idea/Askii.iml" filepath="$USER_HOME$/Documents/GitHub/Askii/.idea/Askii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Askii2.iml" filepath="$PROJECT_DIR$/.idea/Askii2.iml" />
     </modules>
   </component>
 </project>
