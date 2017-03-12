@@ -24,7 +24,7 @@ def query_wolfram(q):
     appid = 'WHXQR4-E2PWVYTVA7'
 
     waeo = wap.WolframAlphaEngine(appid, server)
-    query = waeo.CreateQuery(q)
+    query = waeo.CreateQuery(q + "&format=plaintext&output=JSON")
     result = waeo.PerformQuery(query)
     waeqr = wap.WolframAlphaQueryResult(result)
     jsonresult = waeqr.JsonResult()
