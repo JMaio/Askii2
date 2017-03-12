@@ -33,9 +33,9 @@ def query_wolfram(q):
 
 
 def respond(req):
-    response = str(parse(eval(query_wolfram(req))))[0:156] + "..."
+    response = str(parse(eval(query_wolfram(req))))[0:1599]
     # response = response.encode('utf-8')
-    r_typo = str(''.join([str(response)]))[0:159]
+    r_typo = str(''.join([str(response)]))[0:1599]
     if len(outerTypo) == 0:
         return response
     else:
