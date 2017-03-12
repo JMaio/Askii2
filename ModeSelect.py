@@ -4,8 +4,8 @@ import WolframInterface
 
 def parseSMS(body, phoneno):
     identifier = body[:3]
-    if body[:-1] == '|':
-        if body[:2] == 're':
+    if identifier[:-1] == '|':
+        if identifier[:2] == 're':
             return formatReddit(body[3:], phoneno)
         elif body[:2] == 'wa':
             return WolframInterface.respond(body[3:])
